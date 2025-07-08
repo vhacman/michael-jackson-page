@@ -168,3 +168,32 @@ audio.lyrics1 {
 	border-radius: 10px;
 	outline: none;
 }
+
+.container {
+	display: inline-flex;
+	flex: 1 1 300px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.icon {
+	padding: 0.8rem;
+}
+
+.searchBox {
+	border: none;
+	padding: 0.8rem;
+	flex: 1;
+	outline: none;
+	font-size: 1rem;
+}
+
+.searchButton {
+	color: white;
+	background: #0f4a8a;
+	border: none;
+	padding: 0.8rem 1rem;
+	cursor: pointer;
+	font-weight: bold;
+}
